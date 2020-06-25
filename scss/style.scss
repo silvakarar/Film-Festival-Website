@@ -1,0 +1,336 @@
+@import "variable_overrides";
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+$mint: #8ccbbe;
+$dark-mint: #3797a4;
+$mint-blue: #5fdde5;
+$yellow: #ffcd3c;
+$white: white;
+$black: black;
+$light-grey: #c3edea;
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-left: auto !important;
+
+}
+
+.nav-link-one {
+  color: $dark-mint;
+  padding: auto auto auto 20px;
+  margin: auto auto auto 20px;
+}
+
+.nav-link-one:hover {
+  color: black;
+}
+
+.nav-link-one:active {
+  color: $mint-blue;
+}
+
+
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+
+}
+p.intro:first-letter {
+  font-size: 200%;
+
+}
+
+p.intro:first-line {
+  font-weight: bold;
+}
+
+
+
+/*  border */
+hr {
+  border: solid 2px $mint;
+  border-bottom: none;
+  width: 80%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+} .divider {
+  border: solid 2px $mint;
+  border-bottom: none;
+  width: 100%;
+}
+ .divider-two {
+  border: solid 2px $mint;
+  border-bottom: none;
+  width: 30%;
+
+} .divider3 {
+  border: solid 2px $mint;
+  border-bottom: none;
+  width: 20%;
+} .divider4 {
+  border: solid 2px $white;
+  border-bottom: none;
+  width: 20%;
+} .divider5 {
+  border: solid 2px $mint-blue;
+  border-bottom: none;
+  width: 20%;
+}
+
+
+
+
+
+
+
+.form {
+  font-family: 'Montserrat', sans-serif;
+	padding:50px;
+	margin: 20px;
+	background: $mint;
+  border-radius: 10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+}
+
+
+.pull-right {
+color: $black;
+background-color: $white;
+padding: 10px auto;
+letter-spacing: .2em;
+} .pull-right:hover {
+  background-color: $yellow;
+  color: $white;
+}
+
+
+
+
+
+
+footer {
+  background-color: $black;
+  margin-top: 70px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  font-size: 0.9em;
+
+
+}
+
+table {
+  border-bottom: 2px solid $dark-mint;
+  border-top: 2px solid $mint;
+
+}
+table:hover {
+  color: $dark-mint;
+  font-weight: bold;
+}
+
+table:active {
+  text-transform: capitalize;
+  color: $black;
+}
+
+tr {
+  border: 1px solid $mint;
+}
+
+
+
+
+
+
+
+
+.btn-book {
+  background-color: $mint;
+  color: $black;
+  padding: 5px 40px 5px 40px;
+  border-radius: 50px;
+
+
+
+}
+.btn-movie {
+  background-color: $black;
+  color: $white;
+  padding: 5px 40px 5px 40px;
+  border-radius: 50px;
+}
+
+.btn-movie:hover {
+  background-color: $mint;
+  color: $black;
+}
+
+
+
+
+
+.link {
+  color: $dark-mint;
+  font-weight: bold;
+}
+
+.link:hover {
+  color: $yellow;
+}
+
+.jumbotron-one {
+  background-color: $light-grey;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+}
+
+
+
+
+.welcome-2{
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.classic-films {
+  padding-top: 10px;
+  padding-bottom: 20px;
+
+}
+
+.film-h1 {
+  color: $yellow;
+}
+
+.landing {
+  background-color: $white;
+}
+
+.col-lg-offset-6 {
+    margin-left: 50%;
+}
+
+.bg-image {
+  padding-top: 200px;
+  background-image: url(https://m.media-amazon.com/images/M/MV5BMjVjOGQ0OTctNDhkZC00ZGNiLWI2ZGEtYjZlMWZjOTlkNDlhXkEyXkFqcGdeQXVyNjg1MjEwOTM@._V1_SY1000_CR0,0,666,1000_AL_.jpg);
+}
+
+.bg-images {
+  background-color: $light-grey;
+}
+
+.bg-img {
+  background-color: $dark-mint;
+
+
+}
+
+.profile-h2 {
+  width: ato;
+  padding-left: 30px;
+  margin-top: 50px;
+  color: $dark-mint;
+}
+
+.profile-h3 {
+  padding-left: 30px;
+  width: auto;
+  color: $dark-mint;
+}
+
+.profile-p2 {
+  padding-left: 30px;
+  width: auto;
+  height: auto;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 200%;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.img-m {
+  margin-bottom: 100px;
+}
+
+figcaption {
+  border-bottom: 1px solid $dark-mint;
+
+}
+
+.Films-2 {
+  color: $dark-mint;
+
+}
+
+.t-2 {
+  font-style: italic;
+  border-right: 1px solid $dark-mint;
+  padding-right: 15px;
+  padding-top: 5px;
+}
+
+.container-fluid {
+  width: 100%;
+}
