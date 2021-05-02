@@ -1,13 +1,13 @@
 # Project 3 Openclassrooms
 
-Analyze a client's needs for their film festival
-Requirements:
+**Analyze a client's needs for their film festival
+Requirements:**
 
 Fully responsive, static website for film festival.
 
 The Project Brief.
 
-Technologies has to be used:
+**Technologies has to be used:**
 
 •HTML
 
@@ -15,8 +15,8 @@ Technologies has to be used:
 
 •Bootstrap
 
-
-The website should contain:
+**
+The website should contain:**
 
 •Information about the festival
 
