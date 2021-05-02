@@ -14,9 +14,7 @@ The Project Brief.
 •CSS
 
 •Bootstrap
-
-**
-The website should contain:**
+**The website should contain:**
 
 •Information about the festival
 
