@@ -9,14 +9,21 @@ The Project Brief.
 
 Technologies has to be used:
 
-HTML
-CSS
-Bootstrap
+•HTML
+
+•CSS
+
+•Bootstrap
+
 
 The website should contain:
 
-Information about the festival
-Movies schedule
-News and announcements section
-Registration form
-Links to social media
+•Information about the festival
+
+•Movies schedule
+
+•News and announcements section
+
+•Registration form
+
+•Links to social media
