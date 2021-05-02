@@ -1,5 +1,22 @@
 # Project 3 Openclassrooms
-Project 3 OpenClassrooms FrontEnd Dev Project to-dos
 
-Website made with HTML, CSS and with Bootstrap.
-Project brief with the client’s requests.
+Analyze a client's needs for their film festival
+Requirements:
+
+Fully responsive, static website for film festival.
+
+The Project Brief.
+
+Technologies has to be used:
+
+HTML
+CSS
+Bootstrap
+
+The website should contain:
+
+Information about the festival
+Movies schedule
+News and announcements section
+Registration form
+Links to social media
