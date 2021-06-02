@@ -1,33 +1,18 @@
-@import "variable_overrides";
+@import 'variable_overrides';
 
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
-
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
 
 $mint: #8ccbbe;
 $dark-mint: #3797a4;
 $mint-blue: #5fdde5;
-$yellow: #ffcd3c;
 $white: white;
 $black: black;
 $light-grey: #c3edea;
-
-
-
-
-
-
-
-
-
-
-
-
 
 nav {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   margin-left: auto !important;
-
 }
 
 .nav-link-one {
@@ -43,8 +28,6 @@ nav {
 .nav-link-one:active {
   color: $mint-blue;
 }
-
-
 
 h1 {
   font-family: 'Montserrat', sans-serif;
@@ -82,18 +65,14 @@ h5 {
 p {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 1px;
-
 }
 p.intro:first-letter {
   font-size: 200%;
-
 }
 
 p.intro:first-line {
   font-weight: bold;
 }
-
-
 
 /*  border */
 hr {
@@ -102,65 +81,56 @@ hr {
   width: 80%;
   margin-top: 50px;
   margin-bottom: 50px;
-
-} .divider {
+}
+.divider {
   border: solid 2px $mint;
   border-bottom: none;
   width: 100%;
 }
- .divider-two {
+.divider-two {
   border: solid 2px $mint;
   border-bottom: none;
   width: 30%;
-
-} .divider3 {
+}
+.divider3 {
   border: solid 2px $mint;
   border-bottom: none;
   width: 20%;
-} .divider4 {
+}
+.divider4 {
   border: solid 2px $white;
   border-bottom: none;
   width: 20%;
-} .divider5 {
+}
+.divider5 {
   border: solid 2px $mint-blue;
   border-bottom: none;
   width: 20%;
 }
 
-
-
-
-
-
-
 .form {
   font-family: 'Montserrat', sans-serif;
-	padding:50px;
-	margin: 20px;
-	background: $mint;
+  padding: 50px;
+  margin: 20px;
+  background: $mint;
   border-radius: 10px;
-	-webkit-border-radius:10px;
-	-moz-border-radius: 10px;
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
-	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
-	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+  -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
 }
-
 
 .pull-right {
-color: $black;
-background-color: $white;
-padding: 10px auto;
-letter-spacing: .2em;
-} .pull-right:hover {
-  background-color: $yellow;
-  color: $white;
+  color: $black;
+  background-color: $white;
+  padding: 10px auto;
+  letter-spacing: 0.2em;
 }
-
-
-
-
-
+// .pull-right:hover {
+//   background-color: $dark-mint;
+//   color: $white;
+// }
 
 footer {
   background-color: $black;
@@ -170,14 +140,11 @@ footer {
   right: 0px;
   width: 100%;
   font-size: 0.9em;
-
-
 }
 
 table {
   border-bottom: 2px solid $dark-mint;
   border-top: 2px solid $mint;
-
 }
 table:hover {
   color: $dark-mint;
@@ -193,21 +160,11 @@ tr {
   border: 1px solid $mint;
 }
 
-
-
-
-
-
-
-
 .btn-book {
   background-color: $mint;
   color: $black;
   padding: 5px 40px 5px 40px;
   border-radius: 50px;
-
-
-
 }
 .btn-movie {
   background-color: $black;
@@ -221,44 +178,33 @@ tr {
   color: $black;
 }
 
-
-
-
-
 .link {
   color: $dark-mint;
   font-weight: bold;
 }
 
 .link:hover {
-  color: $yellow;
+  color: $mint;
 }
 
 .jumbotron-one {
   background-color: $light-grey;
   padding-top: 70px;
   padding-bottom: 70px;
-
 }
 
-
-
-
-.welcome-2{
-
+.welcome-2 {
   padding-top: 50px;
   padding-bottom: 50px;
-
 }
 
 .classic-films {
   padding-top: 10px;
   padding-bottom: 20px;
-
 }
 
-.film-h1 {
-  color: $yellow;
+.films-h1 {
+  color: black;
 }
 
 .landing {
@@ -266,7 +212,7 @@ tr {
 }
 
 .col-lg-offset-6 {
-    margin-left: 50%;
+  margin-left: 50%;
 }
 
 .bg-image {
@@ -280,8 +226,6 @@ tr {
 
 .bg-img {
   background-color: $dark-mint;
-
-
 }
 
 .profile-h2 {
@@ -316,12 +260,10 @@ blockquote {
 
 figcaption {
   border-bottom: 1px solid $dark-mint;
-
 }
 
 .Films-2 {
   color: $dark-mint;
-
 }
 
 .t-2 {

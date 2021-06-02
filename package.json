@@ -1,7 +1,7 @@
 {
   "name": "p_03_silva",
   "version": "1.0.0",
-  "description": "",
+  "description": "**Analyze a client's needs for their film festival Requirements:**",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.5.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silvakarar/bootstrap-film-festival-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/silvakarar/bootstrap-film-festival-project/issues"
+  },
+  "homepage": "https://github.com/silvakarar/bootstrap-film-festival-project#readme"
 }
