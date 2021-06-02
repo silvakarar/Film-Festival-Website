@@ -127,10 +127,10 @@ hr {
   padding: 10px auto;
   letter-spacing: 0.2em;
 }
-// .pull-right:hover {
-//   background-color: $dark-mint;
-//   color: $white;
-// }
+.pull-right:hover {
+  background-color: $dark-mint;
+  color: $white;
+}
 
 footer {
   background-color: $black;
@@ -176,6 +176,12 @@ tr {
 .btn-movie:hover {
   background-color: $mint;
   color: $black;
+}
+.btn-dark:hover {
+  background-color: $dark-mint;
+  color: $white;
+  border: none;
+  outline: none;
 }
 
 .link {
