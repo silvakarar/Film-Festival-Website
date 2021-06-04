@@ -9953,20 +9953,22 @@ nav {
 
 h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 4em;
+  font-size: 38px;
   font-weight: bold;
   letter-spacing: 1px;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 2em;
+  font-size: 32px;
   font-weight: bolder;
   letter-spacing: 2px;
 }
 
 h3 {
-  font-style: italic;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
   letter-spacing: 2px;
 }
 
